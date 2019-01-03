@@ -25,7 +25,6 @@
 #include <sstream>
 #include <string>
 
-
 #ifdef __GNUC__
 /**
  * @brief Simple macro to mark parameters or variables as unused
@@ -106,6 +105,6 @@ std::string stringify(const Args &... args)
 
     return ss.str();
 }
-}
+} // namespace pputil
 
 #endif /* ifndef PPUTIL_HPP */
