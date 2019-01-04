@@ -7,7 +7,12 @@ Header only general purpose utility functions for modern c++
 
 # Dependencies
 
-A modern c++ compiler, must support c++14 or better.
+A modern c++ compiler, must support c++14 or later.
+
+Has been tested on ubuntu 16.04 with the following compilers
+
+* gcc5; gcc6; gcc7; gcc8
+* clang 7.0.0
 
 # Usage
 
