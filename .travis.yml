@@ -8,7 +8,7 @@ matrix:
       addons:
         apt:
           sources:
-		    		- sourceline: "ppa:ubuntu-toolchain-r/test"
+            - sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-5
       env:
@@ -18,7 +18,7 @@ matrix:
       addons:
         apt:
           sources:
-						- sourceline: "ppa:ubuntu-toolchain-r/test"
+            - sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-6
       env:
@@ -28,7 +28,7 @@ matrix:
       addons:
         apt:
           sources:
-		    		- sourceline: "ppa:ubuntu-toolchain-r/test"
+            - sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-7
       env:
@@ -38,7 +38,7 @@ matrix:
       addons:
         apt:
           sources:
-		    		- sourceline: "ppa:ubuntu-toolchain-r/test"
+            - sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-8
       env:
