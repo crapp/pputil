@@ -1,5 +1,8 @@
 # pputil
 
+[![Build Status](https://travis-ci.org/crapp/pputil.svg?branch=master)](https://travis-ci.org/crapp/pputil)
+[![pputil License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
+
 Header only general purpose utility functions for modern c++
 
 # Dependencies
