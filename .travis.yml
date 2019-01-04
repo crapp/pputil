@@ -15,7 +15,13 @@ matrix:
         - MATRIX_EVAL="CC=gcc-5 && CXX=g++-5"
 
 before_install:
-  - ls -al
+  - eval "${MATRIX_EVAL}"
+
+script:
+  - pwd && cd tests && mkdir -v build && cd build
+  - cmake -DCMAKE_BUILD_TYPE=Release ../
+  - make
+  - ./simple_pputil
 
 # matrix:
 #   include:
