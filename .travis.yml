@@ -1,12 +1,14 @@
-language:cpp
-dist:xenial
+language: cpp
+sudo: false
+dist: xenial
+
 matrix:
   include:
     - os: linux
       addons:
         apt:
           sources:
-						- sourceline: "ppa:ubuntu-toolchain-r/test"
+		    		- sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-5
       env:
@@ -26,17 +28,17 @@ matrix:
       addons:
         apt:
           sources:
-            - ubuntu-toolchain-r-test
+		    		- sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-7
       env:
         - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
 
-		- os: linux
+     - os: linux
       addons:
         apt:
           sources:
-            - ubuntu-toolchain-r-test
+		    		- sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
             - g++-8
       env:
