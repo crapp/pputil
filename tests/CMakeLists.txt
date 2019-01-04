@@ -20,6 +20,12 @@ set(SIMPLE_SRC
 
 add_executable(simple_pputil ${SIMPLE_HEADER} ${SIMPLE_SRC})
 
+set_target_properties(simple_pputil PROPERTIES
+    CXX_STANDARD 14
+    CXX_STANDARD_REQUIRED ON
+    CXX_EXTENSIONS OFF
+    )
+
 target_include_directories(simple_pputil
     PUBLIC ${PPUTIL_HEADER}
 )
