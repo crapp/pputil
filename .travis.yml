@@ -40,7 +40,7 @@ matrix:
           sources:
             - sourceline: "ppa:ubuntu-toolchain-r/test"
           packages:
-            - g++-7
+            - g++-8
       env:
         - MATRIX_EVAL="CC=gcc-8 && CXX=g++-8"
 
