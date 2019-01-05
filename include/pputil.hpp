@@ -34,6 +34,10 @@
 #define ATTR_UNUSED
 #endif
 
+#define PPUTIL_VERSION_MAJOR 0
+#define PPUTIL_VERSION_MINOR 1
+#define PPUTIL_VERSION_PATCH 0
+
 /**
  * @brief pputil namespace
  */
